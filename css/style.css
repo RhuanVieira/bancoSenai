@@ -1,0 +1,26 @@
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.logo{
+    width: 300px;
+}
+
+.prasesDiv{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+h3{
+background: linear-gradient(to right, #08fff3, #00cbfd);
+
+background-clip: text;
+color: transparent;
+transition: opacity 0.5s ease-in-out;
+}

@@ -24,6 +24,7 @@ require 'conexao.php';
                     <div class="card-header">
                         <h4>Lista de alunos
                         <a href="usuario-create.php" class="btn btn-primary float-end">Adicionar usuario</a>
+                        
                         </h4>
                     </div>
                     <div class="card-body">
@@ -34,7 +35,9 @@ require 'conexao.php';
                                     <th>NOME</th>
                                     <th>EMAIL</th>
                                     <th>DATA NASCIMENTO</th>
+                                    <th>CRIADO EM</th>
                                     <th>AÇÕES</th>
+                                    
                                 </tr>
                             </thead>
                             <tbody>
@@ -50,6 +53,7 @@ require 'conexao.php';
                                     <td><?= $usuario['nome'] ?></td>
                                     <td><?= $usuario['email'] ?></td>
                                     <td><?= $usuario['data_nascimento'] ?></td>
+                                    <td><?= $usuario['crerated_at'] ?></td>
                                     <td>
 
                                         <a href="" class="btn btn-secondary btn-sm">View</a>
